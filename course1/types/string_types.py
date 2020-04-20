@@ -64,6 +64,10 @@ print(len('7 chars'))
 
 
 # String format:
-print('Hello, {}. You are learning {}'.format('Nikita', 'Python'))
-print('Hello, {}. You are learning {}'.format('Nikita'))
-print('Hello, {}. You are learning'.format('Nikita', 'Python'))
+name = 'Nikita'
+lang = 'Pytjon'
+# f-string
+print(f'I\'m {name}. I learn {lang}')
+# print('Hello, {}. You are learning {}'.format('Nikita', 'Python'))
+# print('Hello, {}. You are learning {}'.format('Nikita'))
+# print('Hello, {}. You are learning'.format('Nikita', 'Python'))
